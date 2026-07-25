@@ -1,0 +1,138 @@
+
+h2{
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+p{
+    margin: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.sideTxt, .subtitles{
+    font-size: 18px;
+    line-height: 2;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+/*for projects fix later*/
+.imgBig{
+    position: relative;
+    width: 60%;
+}
+
+img{
+    border-radius: 50px;
+
+    position: relative;
+    width: 50%;
+}
+
+.imgSizeVerySmall{
+    position: relative;
+    width: 30%;
+}
+
+.imgSizeSmall{
+    position: relative;
+    width: 40%;
+}
+
+
+#pageHeader{
+    left: 12%;
+
+    padding-right: 20px;
+    /*justify-content: space-between;
+    text-align: center;  */
+    border-bottom: 5px solid #5c5c5c;
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+.divSpace{
+    position: relative;
+    height: 75px;
+}
+
+.organize{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 30px;
+}
+
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 1%;
+    width: 98%;
+    min-height: auto;
+    gap: 30px;
+}
+
+/*update this replace sidetxt or subtitles*/
+@media (max-width: 992px){
+    p{
+        font-size: 30px;
+    }
+
+    #pageHeader{
+        border-bottom: 10px solid #5c5c5c;
+    }
+    .sideTxt, .subtitles{
+        font-size: 30px;
+        line-height: 10px;
+        line-height: 2;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 20px;
+    }
+    h2{
+        line-height: 80px;
+        font-size: 50px;
+        text-align: center;
+        margin: 20px;
+    }
+    .imgBig{
+        position: relative;
+        width: 90%;
+    }
+
+    img{
+        border-radius: 50px;
+
+        position: relative;
+        width: 80%;
+    }
+
+    .imgSizeVerySmall{
+        position: relative;
+        width: 60%;
+    }
+
+    .imgSizeSmall{
+        position: relative;
+        width: 70%;
+    }
+
+    .organize{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 30px;
+    }
+}

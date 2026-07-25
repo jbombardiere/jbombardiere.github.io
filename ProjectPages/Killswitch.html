@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <title> Engineering Portfolio - John A Bombardiere</title>
+    <link rel = "stylesheet" href="../styleSheet/top.css" type = "text/css">
+    <link rel = "stylesheet" href="projectStyles.css" type = "text/css">
+</head>
+
+<body>
+    <div id = "topBar">
+        <div id = "topLeft">
+        <h1  id = "top">
+            <a id = "mainLink" href="../index.html">John A Bombardiere Portfolio</a>
+        </h1>
+
+        </div>
+        <div id = "topRight">
+
+            <a class = "topURL" href="../Projects.html">Projects</a>
+            <a class = "topURL" href="../About.html">About</a>
+            <a class = "topURL" href="../Contact.html">Contact</a>
+
+        </div>
+            
+    </div>
+    
+    <div id = "topSpace"></div>
+
+    <div class = "divSpace"></div>
+
+    <div id = "pageHeader">
+        <h2> Automatic Kill Switch Pedal</h2>
+
+        <p>Automatic Kill Switch Circuits - 555 timer, and optocoupler</p>
+
+    </div>
+
+    <div class = "divSpace"></div>
+
+    <div class="mainDiv">
+
+        <p class = "sideTxt">
+            The circuit works by periodically shorting the guitar signal to ground, this immediately stops the signal from going to the output and results in a complete cut in sound, then it stops shorting it to ground and lets the guitar signal go to the output overall resulting in a stuttering effect. 2 main circuits were required to do this: the 555 timer circuit generates a square wave with an amplitude of around 5 volts the potentiometer also adjusts the frequency of the square wave; if the circuit was hooked up to an LED it would blink repeatedly, the optocoupler circuit does the actual shorting; when the optocoupler has the 5 volts delivered to the input pin it would connect the ground to the signal completely shorting it.
+        </p>
+        <div class = "organize">
+            <img class = "imgSizeSmall" src = "../Images/Circuit.jpg">
+
+            <img class = "imgSizeSmall" src = "../Images/Cirucit2.jpg">
+        </div>
+    </div>
+
+    <div class = "divSpace"></div>
+
+</body>
